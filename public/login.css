@@ -1,0 +1,13 @@
+.container{
+    padding:30px;
+    margin:7em 25em;
+    width: 30em;
+    height:20em;
+    box-sizing: border-box;
+    border-radius: 10em;
+}
+.bstyle {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

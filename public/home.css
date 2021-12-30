@@ -1,0 +1,80 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1px;
+}
+h1,h2,h3,h4,h5.h6{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+p{
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+h5{
+    margin-right:5px;
+    color: aliceblue;
+}
+.card-footer{
+    overflow:hidden;
+}
+.card-footer button a{
+    transition: all 0.7s ease;
+    text-decoration: none;    
+}
+.card-footer button a:hover{
+    transform:scale(2s);
+   color:yellow;
+    
+}
+.plantc{
+    list-style-type: none;
+    float: right;
+    font-size: 18px;  
+}
+.card-image {
+    width: 300px;
+    height: 300px;
+}
+
+.imgc{
+    margin:40px ;
+    padding:20px;
+    border:2px solid red;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr ));
+    grid-gap:1.5rem
+}
+.imgc .card-img-top{
+    width: 100%;
+    height: 50%;
+}
+.carousel img {
+    max-height: 550px;
+    margin: 0 auto;
+}
+.carousel-inner{
+    height: 550px;
+}
+ .item, img{
+     height: 10% !important;
+     width:  50% !important;
+     border: 1px solid red;
+ }
+ footer{
+  background-image: url(../public/pics/nature3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+}
+#discount{
+  background-image: url(../public/pics/nature.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.discount-session-content {
+  padding: 150px 0;
+  color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

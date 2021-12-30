@@ -1,0 +1,30 @@
+.container{
+    width: 20em;
+    box-sizing: border-box;
+   
+}
+.bstyle {
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.plantc li {
+    list-style-type: none;
+    float: right;
+    font-size: 18px;  
+   text-decoration: none;
+}
+
+.plantc li a{
+    list-style-type: none;
+    float: right;
+    font-size: 18px;  
+   text-decoration: none;
+}
+.plantc li a span{
+   color:red;
+}
+.plantc li a {
+    color:red;
+ }

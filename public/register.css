@@ -1,0 +1,27 @@
+.container{
+    position: relative;
+    padding:30px;
+    margin:12em 27em;
+    width: 25em;
+    box-sizing: border-box;
+    border-radius: 10em;
+}
+.bstyle {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#nature{
+    position: absolute;
+    display: block;
+    width:7em;
+    margin:-58em 36em;
+    z-index: -1;
+}
+#wave{
+    position: absolute;
+    display:block;
+    margin:-15em 0em;
+    z-index: -1;
+   
+}

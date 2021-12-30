@@ -1,0 +1,11 @@
+POST http://localhost:3000/checkout
+Content-Type: application/json
+
+{
+
+    "name":"hello",
+    "price": 100,
+    
+}
+###
+GET http://localhost:3000/plants
